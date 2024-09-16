@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "802934038554",
+    "firebase_url": "https://find-my-classmates-default-rtdb.firebaseio.com",
+    "project_id": "find-my-classmates",
+    "storage_bucket": "find-my-classmates.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802934038554:android:9ffb9002d04eca7f92b1a3",
+        "android_client_info": {
+          "package_name": "com.example.findMyClassmates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWmg483rcJ6wQE86GvBsznPiSp43T6Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

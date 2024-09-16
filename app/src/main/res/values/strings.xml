@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Find My Classmates</string>
+    <string name="user_role">Select your role</string>
+    <string-array name="role_array">
+        <item>Undergrad Student</item>
+        <item>Grad Student</item>
+        <item>Staff</item>
+    </string-array>
+    <string-array name="dornsife_courses">
+        <item>LING-115gw: Language and Society</item>
+        <item>AMST-211g: Sex in America</item>
+        <item>BISC-115Lxg: The Biology of Food</item>
+        <item>ECON-351x: Microeconomics for Business</item>
+        <item>ECON-352x: Macroeconomics for Business</item>
+        <item>MATH-126g: Calculus II</item>
+    </string-array>
+    <string-array name="viterbi_courses">
+        <item>CSCI-102L: Fundamentals of Computation</item>
+        <item>CSCI-103L: Introduction to Programming</item>
+        <item>CSCI-170: Discrete Methods in Computer Science</item>
+        <item>CSCI-310: Software Engineering</item>
+        <item>CSCI-356: Introduction to Computer Systems</item>
+        <item>CSCI-402: Operating Systems</item>
+    </string-array>
+    <string-array name="marshall_courses">
+        <item>ACCT-410x: Foundations of Accounting</item>
+        <item>BUAD-102: Global Leadership Seminar</item>
+        <item>BUAD-304: Organizational Behavior and Leadership</item>
+        <item>BUAD-307: Marketing Fundamentals</item>
+        <item>BUAD-311: Operations Management</item>
+        <item>BAEP-450: Fundamentals of Entrepreneurship</item>
+    </string-array>
+    <string-array name="cinematic_courses">
+        <item>CTIN-289: Game Development Fundamentals</item>
+        <item>CTIN-291: Advanced Games Crew</item>
+        <item>CTCS-190g: Introduction to Cinema</item>
+        <item>CTCS-409: Censorship in Cinema</item>
+        <item>IML-104: Introduction to Digital Studies</item>
+        <item>IML-203: Introduction to Visual Design</item>
+    </string-array>
+    <string-array name="annenberg_courses">
+        <item>COMM-204: Public Speaking</item>
+        <item>COMM-302: Persuasion</item>
+        <item>COMM-304: Interpersonal Communication</item>
+        <item>COMM-310: Media and Society</item>
+        <item>PR-340: Introduction to Advertising</item>
+        <item>PR-426: Influencer Relations</item>
+    </string-array>
+    <string name="inbox">Inbox</string>
+</resources>

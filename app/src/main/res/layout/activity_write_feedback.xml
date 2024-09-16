@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <!-- Course Rating -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Rating (1-10)" />
+
+        <RatingBar
+            android:id="@+id/courseRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="10"
+            android:stepSize="1.0"
+            android:rating="5"/>
+
+        <!-- Workload Rating -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workload Rating (1-10)"
+            android:layout_marginTop="16dp"/>
+
+        <RatingBar
+            android:id="@+id/workloadRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="10"
+            android:stepSize="1.0"
+            android:rating="5"/>
+
+        <!-- Professor Rating -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professor Rating (1-10)"
+            android:layout_marginTop="16dp"/>
+
+        <RatingBar
+            android:id="@+id/professorRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="10"
+            android:stepSize="1.0"
+            android:rating="5"/>
+
+        <!-- Comments -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/commentsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="Write your comments here..."
+            android:minLines="4"/>
+
+        <!-- Check Attendance Switch -->
+        <Switch
+            android:id="@+id/checkAttendanceSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Attendance?"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Late Submission Switch -->
+        <Switch
+            android:id="@+id/lateSubmissionSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Late Submission?"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitFeedbackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Feedback"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/border_black">
+
+    <!-- Feedback Content Container -->
+    <LinearLayout
+        android:id="@+id/feedbackContentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toStartOf="@+id/editDeleteContainer">
+
+        <!-- Course Rating -->
+        <TextView
+            android:id="@+id/courseRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Rating: 5"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Workload Rating -->
+        <TextView
+            android:id="@+id/workloadRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workload Rating: 4"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Professor Rating -->
+        <TextView
+            android:id="@+id/professorRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professor Rating: 4.5"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Comments -->
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The course was challenging but the professor was great!"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif" />
+
+        <!-- Check Attendance -->
+        <TextView
+            android:id="@+id/checkAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance Checked: Yes"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Late Submission -->
+        <TextView
+            android:id="@+id/lateSubmission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Late Submission Allowed: No"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Edit and Delete Buttons Container -->
+    <LinearLayout
+        android:id="@+id/editDeleteContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp">
+
+        <!-- Edit Feedback Button -->
+        <Button
+            android:id="@+id/editFeedbackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+
+        <!-- Delete Feedback Button -->
+        <Button
+            android:id="@+id/deleteFeedbackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- ... other parts of your layout above ... -->
+
+    <!-- Voting Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/feedbackContentContainer"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp">
+
+        <!-- Vote Up Container -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Vote Up Button -->
+            <Button
+                android:id="@+id/voteUpButton"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Vote Up" />
+
+            <!-- Vote Up Count -->
+            <TextView
+                android:id="@+id/voteUpCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <!-- Vote Down Container -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Vote Down Button -->
+            <Button
+                android:id="@+id/voteDownButton"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Vote Down" />
+
+            <!-- Vote Down Count -->
+            <TextView
+                android:id="@+id/voteDownCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

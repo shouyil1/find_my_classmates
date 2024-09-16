@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/seeCommentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="11sp"
+        android:text="See Feedbacks"
+        android:gravity="center"
+        android:layout_marginLeft="50sp"/>
+
+    <Button
+        android:id="@+id/findClassmatesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="11sp"
+        android:text="Find Classmates"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="50sp"/>
+
+</LinearLayout>
